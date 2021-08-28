@@ -21,7 +21,7 @@ function onStart() {
     console.log("Клик старт!");
     idInterval = setInterval(() => {
         refs.body.style.backgroundColor = randomColor();
-        //   colors[randomIntegerFromInterval(0, colors.length - 1)];
+
     }, 1000);
     refs.startBtn.disabled = true;
 }
